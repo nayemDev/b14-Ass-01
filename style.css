@@ -1,0 +1,66 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+/* nav design start  */
+nav {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  width: auto;
+}
+.nav-logo {
+  margin: 20px 0 10px 100px;
+  align-items: center;
+}
+.nav-menu a {
+  text-decoration: none;
+  color: rgb(106, 104, 104);
+}
+.nav-menu {
+  display: flex;
+  width: 400px;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-register-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.cmn-btn{
+    width: 180px;
+    height: 50px;
+    border:none;
+    border-radius: 10px;
+    background-color: #2563EB;
+    color:white;
+    font-size: 16px;
+    font-weight: 700;
+    cursor:pointer;
+    margin: 20px 100px 20px 0 ;
+}
+/* nav design end */
+/* heroSection start  */
+/* .heroSection{
+  display: grid;
+  grid-template-rows: repeat(3,1fr);
+  justify-content: center;
+  color:white;
+  background-image: url(./assets/banner.jpg);
+  background-image: cover;
+  height: 700px;
+  width: auto;
+  text-align: center;
+  padding-top: 100px;
+}
+ */
+
+/* .heroSection h1{
+  font-size: 50px;
+  font-weight: 800px;
+} */
+
+
+/* heroSection end  */
