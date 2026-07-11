@@ -41,6 +41,9 @@ nav {
     cursor:pointer;
     margin: 20px 100px 20px 0 ;
 }
+.cmn-btn:hover{
+  background-color: #1a5dee;
+}
 /* nav design end */
 /* heroSection start  */
 
@@ -81,8 +84,11 @@ nav {
   line-height: 1.5;
 }
 
-.hero-btn{
-  margin: 200px 0 20px 0px ;
+#hero-btn{
+  height: 70px;
+  width: 300px;
+  margin: 300px 0 0px 0px ;
 }
+
 
 /* heroSection end  */
