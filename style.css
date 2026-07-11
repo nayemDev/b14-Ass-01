@@ -1,6 +1,8 @@
 body {
   padding: 0%;
   margin: 0%;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
 }
 /* nav design start  */
 nav {
@@ -97,12 +99,13 @@ nav {
 
  /* meet speaker start  */
  .speaker{
-  height: 600px;
+  height:min-content;
   width: 100%;
   display: grid;
   justify-content: center;
   gap:20px;
   align-items: center;
+
  }
 .speaker-titile{
   display:flex;
@@ -115,10 +118,9 @@ nav {
 .speakers-list{
   display:grid;
   grid-template-columns: repeat(2,1fr);
-  grid-template-rows: repeat(2,1fr);
+  /* grid-template-rows: repeat(2,1fr); */
   justify-content: center;
   align-items: center;
-  border-radius: 12px;
 
 }
 .speaker-people{
@@ -128,7 +130,7 @@ nav {
   overflow: hidden;
   background: #fff;
   text-align:left ;
-  
+
  
 
 }
@@ -149,3 +151,100 @@ nav {
   color:rgb(110, 106, 106);
 }
  /* meet speaker end  */
+
+ /* <!-- Secure Your Spot (Pricing) Section start  --> */
+ .Pricing-card{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height:min-content;
+  width:100%;
+  padding:100px 0 30px 0;
+ }
+ .card-title h1{
+  font-size: 50px;
+  line-height: .50;
+  font-weight: bolber;
+ }
+ .card-title p{
+  color:rgb(110, 106, 106);
+ }
+ #card-list{
+  display: flex;
+  justify-content: space-between;
+  gap:40px;
+  text-align: left;
+
+ }
+.card-item{
+  height: 400px;
+  width: 300px;
+  border: 1px solid #ddd;
+  overflow: hidden;
+  background: #fff;
+  border-radius: 16px;
+  padding:30px;
+  text-align: left;
+}
+.card-content{
+  line-height: .2;
+  margin-bottom: 30px;
+}
+.card-content h4{
+  color:rgb(87, 85, 85);
+}
+.card-content h1{
+  font-size: 50px;
+}
+.card-content p{
+  color:rgb(110, 106, 106);
+}
+.card-item ul{
+  text-align: left;
+  line-height: 2;
+  padding:0 0 0 15px;
+  color:rgb(42, 41, 41);
+  
+}
+li::marker{
+  color:#165aed
+}
+
+.card-btn{
+  height: 40px;
+  width: 100%;
+  background-color: white;
+  border-radius:10px;
+  margin-top:10px;
+  font-size: 15px;
+  font-weight: bolder;
+}
+.card-btn:hover{
+  cursor: pointer;
+  background-color: #1a5dee;
+  color:white;
+}
+.card-btn-stand{
+  border-color:#165aed ;
+  color:#165aed;
+}
+#feturedCard{
+  color:white;
+  
+  background-color:#0C1A2A;
+}
+#feturedCard h4{
+  color:#1a5dee;
+}
+#feturedCard ul{
+  color:rgb(171, 166, 166);
+}
+#feturedCard-btn{
+  border-color:#165aed;
+  color:white;
+  background-color: #1a5dee;
+}
+
+
+/* <!-- Secure Your Spot (Pricing) Section end  --> */
