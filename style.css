@@ -173,15 +173,16 @@ nav {
   color:rgb(110, 106, 106);
  }
  #card-list{
-  display: flex;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   justify-content: space-between;
   gap:40px;
   text-align: left;
 
  }
 .card-item{
-  height: 400px;
-  width: 300px;
+  height: auto;
+  width: 100;
   border: 1px solid #ddd;
   overflow: hidden;
   background: #fff;
@@ -392,5 +393,6 @@ footer{
   align-items: center;
   color:rgb(198, 194, 194);
 }
+
 
 /* footer section end  */
