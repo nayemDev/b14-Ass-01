@@ -355,3 +355,42 @@ li::marker{
 }  
 
 /*  <!-- Hackathon Section — AI CHALLENGE end   --> */
+
+/* footer section start  */
+footer{
+  display: grid;
+  background-color: #102033 ;
+}
+.logo-links{
+  display: flex;
+  justify-content: space-between;
+
+}
+.social-link{
+  display:flex;
+  width:50%;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+
+  margin:50px;
+}
+.footer-logo img{
+  margin:80px;
+  height: 40px;
+}
+
+.social-link i{
+  font-size: 50px;
+  /* color:#1a5dee; */
+  color:white;
+}
+
+.footer-copyright{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color:rgb(198, 194, 194);
+}
+
+/* footer section end  */
